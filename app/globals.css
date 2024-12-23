@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+} */
+
+@layer base {
+  :root {
+
+    --radius: 0.5rem
+  }
+}
+
+
+.bento-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    background: #000; /* Background color */
+  }
+  
+  .card {
+    background: #1a1a1a;
+    border-radius: 10px;
+    padding: 20px;
+    color: #fff;
+    position: relative;
+    transition: background 0.3s ease;
+  }
+  
+  .card:hover {
+    background: #333; /* Hover color */
+  }
+  
+  .card h3 {
+    margin: 0 0 10px;
+    font-size: 1.5rem;
+  }
+  
+  .card p {
+    margin: 0 0 20px;
+    font-size: 1rem;
+  }
+  
+  .icon {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 2rem;
+    opacity: 0.8;
+  }
