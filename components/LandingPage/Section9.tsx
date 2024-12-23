@@ -1,4 +1,4 @@
-
+import Image from "next/image";
 
 export const Section9 = () => {
     return <div style={{backgroundImage: 'url("/Section9Background.png")'}} className="bg-scroll bg-center bg-no-repeat">
@@ -6,7 +6,7 @@ export const Section9 = () => {
             <div className="flex flex-col py-20">
                 <div className="flex flex-col justify-center gap-4">
                     <div className="text-center text-white text-[42px] font-medium">Award & <span className="bg-gradient-to-r from-[#A37BF9] to-[#FFC263] text-transparent bg-clip-text">Honors</span></div>
-                    <img src='Honors.png' />
+                    <Image src='Honors.png' alt="Honors"/>
                 </div>
                 <div className="flex flex-col justify-center text-center gap-8">
                     <div className="flex flex-col gap-5">

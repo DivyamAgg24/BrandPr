@@ -4,7 +4,6 @@ import React, {
   useRef,
   useState,
   createContext,
-  useContext,
   JSX,
 } from "react";
 import {
@@ -156,7 +155,6 @@ export const Carousel = ({ items, initialScroll = 0 }: CarouselProps) => {
 
 export const Card = ({
   card,
-  index,
   layout = false,
 }: {
   card: Card;
@@ -165,7 +163,7 @@ export const Card = ({
 }) => {
   const [open, setOpen] = useState(false);
   const containerRef = useRef<HTMLDivElement>(null);
-  const { onCardClose, currentIndex } = useContext(CarouselContext);
+//   const { onCardClose, currentIndex } = useContext(CarouselContext);
 
   useEffect(() => {
     function onKeyDown(event: KeyboardEvent) {
@@ -272,8 +270,6 @@ export const Card = ({
 };
 
 export const BlurImage = ({
-  height,
-  width,
   src,
   className,
   alt,

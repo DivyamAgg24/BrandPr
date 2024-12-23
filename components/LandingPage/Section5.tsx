@@ -1,4 +1,4 @@
-import { BlurImage, Card, Carousel } from "../ui/apple-cards-carousel"
+import { Card, Carousel } from "../ui/apple-cards-carousel"
 import Image from "next/image";
 
 

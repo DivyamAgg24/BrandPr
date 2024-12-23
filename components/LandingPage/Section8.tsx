@@ -1,4 +1,4 @@
-
+import Image from "next/image";
 
 export const Section8 = () => {
     return <div style={{backgroundImage: 'url("/Section8Background.png")'}} className="bg-scroll bg-center bg-no-repeat bg-[#000000] h-[1024px] ">
@@ -8,17 +8,17 @@ export const Section8 = () => {
                     <div className="text-white font-black text-[54px]">99K+</div>
                     <div className="text-[#FFFFFF87] text-[20px]">Artwork</div>
                 </div>
-                <img src='Line.png' className="h-[19px] w-[79px] mt-[35px] mx-3"/>
+                <Image src='Line.png' className="h-[19px] w-[79px] mt-[35px] mx-3" alt="Line"/>
                 <div className="flex flex-col items-center text-center">
                     <div className="bg-gradient-to-r from-[#BE037D] to-[#FEAE70] text-transparent bg-clip-text font-black text-[54px] ">72K+</div>
                     <div className="text-[#FFFFFF87] text-[20px]">Auction</div>
                 </div>
-                <img src='Line.png' className="h-[19px] w-[79px] mt-[35px] mx-3"/>
+                <Image src='Line.png' className="h-[19px] w-[79px] mt-[35px] mx-3" alt="Line"/>
                 <div className="flex flex-col items-center text-center">
                     <div className="text-white font-black text-[54px]">35K+</div>
                     <div className="text-[#FFFFFF87] text-[20px]">Artist</div>
                 </div>
-                <img src='Line.png' className="h-[19px] w-[79px] mt-[35px] mx-3"/>
+                <Image src='Line.png' className="h-[19px] w-[79px] mt-[35px] mx-3" alt="Line"/>
                 <div className="flex flex-col items-center text-center">
                     <div className="text-white font-black text-[54px]">128K+</div>
                     <div className="text-[#FFFFFF87] text-[20px]">NFTs Created</div>

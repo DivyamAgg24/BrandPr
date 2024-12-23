@@ -1,5 +1,5 @@
 import * as React from "react"
-
+import Image from "next/image";
 import { cn } from "@/lib/utils"
 
 const Card = React.forwardRef<
@@ -78,7 +78,7 @@ CardFooter.displayName = "CardFooter"
 const CompleteCard2 = ({img, description}: {img: string; description: string}) => {
     return <Card>
     <CardHeader >
-        <div className="pl-3"><img src={img} /></div>
+        <div className="pl-3"><Image src={img} alt="Logo"/></div>
     </CardHeader>
     <CardContent>
         {description}

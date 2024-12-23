@@ -7,7 +7,7 @@ export const LeftComponent = () => {
                 <div className="text-[56px] font-bold text-white gap-6">
                     <div className="w-[167px] rounded-[45px] gap-2 bg-gradient-to-r from-[#FFFFFF] to-[#424242] font-['Hubot_Sans']">
                         <div className="w-[166px] bg-stone-900 text-white py-[12px] px-[18px] rounded-[45px] font-satoshi text-[14px] font-normal">
-                            Branding At it's Peak
+                            Branding At it&apos;s Peak
                         </div>
                     </div>
                     <div>

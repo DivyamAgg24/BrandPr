@@ -1,10 +1,4 @@
 import {
-    Card,
-    CardContent,
-    CardDescription,
-    CardFooter,
-    CardHeader,
-    CardTitle,
     CompleteCard2
   } from "@/components/ui/card2"
 

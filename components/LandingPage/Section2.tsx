@@ -6,7 +6,7 @@ export const Section2 = () => {
       }} className="bg-scroll bg-black bg-cover bg-center h-full">
         <div className="flex flex-col justify-center">
             <div className="flex flex-col justify-center text-[54px] mx-48 text-white mt-16">
-                <h1 className="flex justify-center">You Don't Have A Web3 Problem... You're</h1>
+                <h1 className="flex justify-center">You Don&apos;t Have A Web3 Problem... You&apos;re</h1>
                 <div className="flex justify-center">
                     <h1 className="">Failing To <span className="bg-gradient-to-r from-purple-300 to-orange-300 text-transparent bg-clip-text text-[54px] font-semibold">
                         Convert That Traffic Into

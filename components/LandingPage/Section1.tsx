@@ -1,5 +1,6 @@
 import { LeftComponent } from "./LeftComponent"
 import { NavBar } from "./navigationBar"
+import Image from "next/image";
 
 export const Section1 = () => {
     return <div
@@ -11,7 +12,7 @@ export const Section1 = () => {
                 < NavBar />
                 <div className="flex">
                     <LeftComponent />
-                    <img className="w-[630px] h-[550px] mt-[50px] ml-8" src="SEO.png" />
+                    <Image className="w-[630px] h-[550px] mt-[50px] ml-8" src="SEO.png" alt="Card"/>
                 </div>
             </div>
         </div>

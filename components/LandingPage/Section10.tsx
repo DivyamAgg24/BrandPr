@@ -8,7 +8,7 @@ export const Section10 = () => {
                     <div className="flex flex-col">
                         <div className="flex text-white font-bold text-[24px]">Get in Touch Today</div>
                         <div className="flex text-white font-satoshi font-medium text-[24px]">Reach out to us for any inquiries—</div>
-                        <div className="flex text-white font-satoshi font-medium text-[24px]">we're here to help</div>
+                        <div className="flex text-white font-satoshi font-medium text-[24px]">we&apos;re here to help</div>
                     </div>
                     <div className="border-[0.1px] border-[#A8A8A8]"></div>
                     <div className="text-[#A8A8A8] text-[14px]">71-75 Shelton Street, London, England WC2H 9JQ, GB
