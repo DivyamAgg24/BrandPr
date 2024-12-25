@@ -238,7 +238,7 @@ export const Card = ({
       <motion.button
         layoutId={layout ? `card-${card.title}` : undefined}
         onClick={handleOpen}
-        className="rounded-3xl bg-white/10 backdrop-blur-xl dark:bg-neutral-900 md:h-[300px] md:w-[500px] flex flex-col items-start justify-start z-10"
+        className="rounded-3xl bg-white/10 backdrop-blur-xl dark:bg-neutral-900 h-[300px] w-[500px] flex flex-col items-start justify-start z-10"
       >
         <div className="flex justify-start">
             <div className=" top-0 inset-x-0 bg-gradient-to-b from-black/50 via-transparent to-transparent z-30 pointer-events-none" />
@@ -260,7 +260,8 @@ export const Card = ({
                 <BlurImage
                 src={card.src}
                 alt={card.title}
-                className=""
+                height="100"
+                width="100"
                 />
             </div>
         </div>
@@ -271,6 +272,7 @@ export const Card = ({
 
 export const BlurImage = ({
   src,
+
   className,
   alt,
   ...rest
@@ -285,8 +287,8 @@ export const BlurImage = ({
       )}
       onLoad={() => setLoading(false)}
       src={src}
-      width="200"
-      height="200"
+      width="300"
+      height="300"
     //   loading="lazy"
       decoding="async"
       blurDataURL={typeof src === "string" ? src : undefined}

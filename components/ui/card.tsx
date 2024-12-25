@@ -78,7 +78,7 @@ CardFooter.displayName = "CardFooter"
 const CompleteCard = ({img, titleup, titlebottom, description}: {img: string; titleup: string; titlebottom:string; description: string}) => {
     return <Card>
     <CardHeader >
-        <div className=""><Image src={img} alt="Logo"/></div>
+        <div className=""><Image src={img} alt="Logo" width="80" height="80"/></div>
         <div className="pt-4 pl-4 text-[25px] bg-gradient-to-r from-[#BE037D] to-[#FEAE70] text-transparent bg-clip-text font-medium">
             <div>{titleup}</div>
             <div>{titlebottom}</div>

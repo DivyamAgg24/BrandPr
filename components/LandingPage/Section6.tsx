@@ -8,7 +8,7 @@ export const Section6 = () => {
         <div className="flex justify-center text-center text-white text-[42px]">
             What Our Client Say?
         </div>
-        <div className="grid grid-cols-3 grid-rows-2 mt-10 mx-28">
+        <div className="grid md:grid-cols-3 mt-10 w-full lg:px-28">
                 <CompleteCard2 img={"/Apostrophe.png"} description="Lorem ipsum dolor sit amet,  elit ut aliquam, purus sit amet luctus venenatis elit ut aliquam, purus sit amet luctus venenatis"/>
                 <CompleteCard2 img={"/Apostrophe.png"} description="Lorem ipsum dolor sit amet,  elit ut aliquam, purus sit amet luctus venenatis elit ut aliquam, purus sit amet luctus venenatis"/>
                 <CompleteCard2 img={"/Apostrophe.png"} description="Lorem ipsum dolor sit amet,  elit ut aliquam, purus sit amet luctus venenatis elit ut aliquam, purus sit amet luctus venenatis"/>

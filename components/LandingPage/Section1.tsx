@@ -6,13 +6,13 @@ export const Section1 = () => {
     return <div
             style={{
             backgroundImage: 'url("/Component 46.svg")',
-            }} className="h-wcreen w-full"
+            }} className="sm:max-w-max md:max-w-max"
         >
-            <div>
+            <div className="flex-col">
                 < NavBar />
-                <div className="flex">
+                <div className="flex flex-col lg:flex-row lg:gap-2">
                     <LeftComponent />
-                    <Image className="w-[630px] h-[550px] mt-[50px] ml-8" src="SEO.png" alt="Card"/>
+                    <Image className="h-fit" src="/SEO.png" alt="Card" width="500" height="200" layout="responsive" />
                 </div>
             </div>
         </div>

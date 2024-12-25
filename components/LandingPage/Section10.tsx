@@ -1,23 +1,23 @@
 
 
 export const Section10 = () => {
-    return <div style={{backgroundImage: 'url("/Section10Background.png")'}} className="bg-scroll bg-center bg-black bg-no-repeat h-[514px]">
-        <div className="gap-16 flex flex-col mx-[112px]">
-            <div className="text-white flex gap-[165px] pt-10">
+    return <div style={{backgroundImage: 'url("/Section10Background.png")'}} className="bg-scroll bg-center bg-black bg-no-repeat h-full">
+        <div className="gap-16 flex flex-col md:mx-20 lg:mx-[112px]">
+            <div className="text-white flex lg:gap-[165px] gap-8 pt-10">
                 <div className="gap-4 flex flex-col">
                     <div className="flex flex-col">
-                        <div className="flex text-white font-bold text-[24px]">Get in Touch Today</div>
-                        <div className="flex text-white font-satoshi font-medium text-[24px]">Reach out to us for any inquiries—</div>
-                        <div className="flex text-white font-satoshi font-medium text-[24px]">we&apos;re here to help</div>
+                        <div className="flex text-white font-bold md:text-[24px] text-[15px]">Get in Touch Today</div>
+                        <div className="flex text-white font-satoshi font-medium md:text-[24px] text-[15px]">Reach out to us for any inquiries—</div>
+                        <div className="flex text-white font-satoshi font-medium md:text-[24px] text-[15px]">we&apos;re here to help</div>
                     </div>
                     <div className="border-[0.1px] border-[#A8A8A8]"></div>
                     <div className="text-[#A8A8A8] text-[14px]">71-75 Shelton Street, London, England WC2H 9JQ, GB
                     Weekend: 10am - 3pm</div>
                 </div>
-                <div className="flex text-white gap-[138px]">
+                <div className="flex text-white lg:gap-32 gap-4">
                     <div className="flex flex-col gap-4">
-                        <div className="bg-gradient-to-r from-[#A37BF9] to-[#FFC263] text-transparent bg-clip-text text-[18px]">Home</div>
-                        <div className="text-[16px] gap-4 flex flex-col">
+                        <div className="bg-gradient-to-r from-[#A37BF9] to-[#FFC263] text-transparent bg-clip-text md:text-[18px] text-[14px]">Home</div>
+                        <div className="md:text-[16px] text-[12px] gap-4 flex flex-col">
                             <div>About us</div>
                             <div>Contact</div>
                             <div>Events</div>
@@ -26,8 +26,8 @@ export const Section10 = () => {
                         </div>
                     </div>
                     <div className="flex flex-col gap-4">
-                        <div className="bg-gradient-to-r from-[#A37BF9] to-[#FFC263] text-transparent bg-clip-text text-[18px]">Services</div>
-                        <div className="text-[16px] gap-4 flex flex-col">
+                        <div className="bg-gradient-to-r from-[#A37BF9] to-[#FFC263] text-transparent bg-clip-text md:text-[18px] text-[14px]">Services</div>
+                        <div className="md:text-[16px] text-[12px] gap-4 flex flex-col">
                             <div>PR Services</div>
                             <div>Event Development</div>
                             <div>Marketing</div>
@@ -36,8 +36,8 @@ export const Section10 = () => {
                         </div>
                     </div>
                     <div className="flex flex-col gap-4">
-                        <div className="bg-gradient-to-r from-[#A37BF9] to-[#FFC263] text-transparent bg-clip-text text-[18px]">Company</div>
-                        <div className="text-[16px] gap-4 flex flex-col">
+                        <div className="bg-gradient-to-r from-[#A37BF9] to-[#FFC263] text-transparent bg-clip-text md:text-[18px] text-[14px]">Company</div>
+                        <div className="md:text-[16px] text-[12px] gap-4 flex flex-col">
                             <div>Terms & Conditions</div>
                             <div>Privacy Policy</div>
                         </div>
@@ -45,7 +45,7 @@ export const Section10 = () => {
                 </div>
             </div>
             <div className="flex justify-between w-full text-white py-10">
-                <div className="font-bold text-[40px]">BrandPR</div>
+                <div className="font-bold md:text-[40px] text-[25px]">BrandPR</div>
                 <div className="flex items-center gap-5">
                     <div className="bg-gradient-to-r from-[#C4047E] to-[#850078] rounded-full p-2"><span className="[&>svg]:h-5 [&>svg]:w-5">
                         <svg

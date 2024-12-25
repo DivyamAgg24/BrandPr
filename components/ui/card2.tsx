@@ -78,7 +78,7 @@ CardFooter.displayName = "CardFooter"
 const CompleteCard2 = ({img, description}: {img: string; description: string}) => {
     return <Card>
     <CardHeader >
-        <div className="pl-3"><Image src={img} alt="Logo"/></div>
+        <div className="pl-3"><Image src={img} alt="Logo" width="20" height="20"/></div>
     </CardHeader>
     <CardContent>
         {description}

@@ -19,11 +19,11 @@ export const Section7 = () => {
                 ))}
             </BentoGrid>
             <div className="text-center mt-10">
-                <h1 className="text-white text-[42px] font-satoshi">Our Projects <span className="bg-gradient-to-r from-[#BE037D] to-[#FEAE70] text-transparent bg-clip-text">Portfolios</span></h1>
+                <h1 className="text-white md:text-[42px] text-[30px] font-satoshi">Our Projects <span className="bg-gradient-to-r from-[#BE037D] to-[#FEAE70] text-transparent bg-clip-text">Portfolios</span></h1>
             </div>
             <div className="pt-5 flex space-x-16 overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-200px),transparent_100%)]">
-                < Image src="Portfolio.png" className="animate-infinite-scroll" alt="Portfolio"/>
-                < Image src="Portfolio.png" className="animate-infinite-scroll " aria-hidden="true" alt="Portfolio"/>
+                < Image src="/Portfolio.png" className="animate-infinite-scroll" alt="Portfolio" width="1697" height="165"/>
+                < Image src="/Portfolio.png" className="animate-infinite-scroll " aria-hidden="true" alt="Portfolio" width="1697" height="165"/>
             </div>
         </div>
     </div>
@@ -48,11 +48,11 @@ const items = [
     {
       title: "Data-DrivenOptimization",
       description: "We back every campaign with analytics, tracking performance and refining strategies in real-time for maximum ROI",
-      icon: <Image src="BentoIcon2.png" className="h-full w-fit" alt="Icon"/>,
+      icon: <Image src="/BentoIcon2.png" width="100" height="100" alt="Icon"/>,
     },
     {
       title: "Sustainable Growth",
       description: "Our mission doesn’t end with the campaign. We focus on building long-term brand equity by fostering customer loyalty, creating lasting impressions, and ensuring your brand evolves to meet new challenges and opportunities",
-      icon: <Image src="BentoIcon3.png" className="h-12" alt="Icon"/>,
+      icon: <Image src="/BentoIcon3.png" width="35" height="35" alt="Icon"/>,
     },
   ];
